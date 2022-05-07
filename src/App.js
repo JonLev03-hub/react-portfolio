@@ -1,11 +1,11 @@
 
 import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import React from 'react';
-import Header from './components/header';
-import About from './components/about';
-import Skills from './components/skills';
-import Work from './components/work';
-import Home from './components/home';
+import Header from "./components/header";
+import About from "./pages/about";
+import Skills from "./pages/skills";
+import Work from "./pages/work";
+import Home from "./pages/home";
 
 export default function App() {
   return (

@@ -1,0 +1,32 @@
+nav ul {
+    list-style:none;
+    text-align: right;
+    margin-right: 5%;
+    font-size:1.1rem;
+}
+nav li {
+    display:inline-block;
+    margin:0 10px;
+    letter-spacing: .1em;
+}
+nav a {
+    color: #E6E6E6;
+    text-decoration: none;
+}
+nav a:hover {
+    transition:linear .3s .1s;
+    color: #9d24b2;
+}
+
+.contact {
+    background-color:transparent;
+    border: 2px solid #a813c2;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #9d24b2;
+}
+.contact:hover {
+    border-color: #E6E6E6;
+    color: #E6E6E6;
+    transition: linear .3s .1s;
+}

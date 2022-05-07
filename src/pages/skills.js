@@ -1,4 +1,4 @@
-export default function SKills() {
+export default function Skills() {
     return (
         <div className = "skills" >
             <h1>Skills</h1>

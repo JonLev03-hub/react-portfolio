@@ -1,23 +1,32 @@
 import {Link} from 'react-router-dom';
+import HeaderCss from './header.module.css';
 export default function Header () {
     const links = [
         {
-            name: 'About',
+            name: 'this.about()',
             path: '/about'
         },
         {
-            name: 'Skills',
+            name: 'this.skills()',
             path: '/skills'
         },
         {
-            name: 'Work',
+            name: 'this.work',
 
             path: '/work'
         }
     ];
     return (
-        <header className = "Nav">
-            <a href = "about">test</a>
-        </header>
+        <nav>
+            <ul>
+                {links.map(link => (
+                    <li key={link.name}>
+                        <Link to={link.path}>{link.name}</Link>
+                    </li>
+                ))}
+                <li><button className = {HeaderCss.contact}>Contact</button></li>
+            </ul>
+
+        </nav>
     )
 }
