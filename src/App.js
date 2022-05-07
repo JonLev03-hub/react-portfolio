@@ -1,24 +1,23 @@
-import {Routes, Route} from 'react-router-dom';
-import Home from './pages/home';
-import About from './pages/about';
-import Skills from './pages/skills';
-import Work from './pages/work';
-import ErrorPage from './pages/error';
+
+import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import React from 'react';
 import Header from './components/header';
+import About from './components/about';
+import Skills from './components/skills';
+import Work from './components/work';
+import Home from './components/home';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header/>
+  <div className = "app" > 
+    <Router>
+      <Header />
       <Routes>
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/skills" component={Skills}/>
-        <Route path="/work" component={Work}/>
-        <Route component = {ErrorPage}/>
+        <Route path = "/" element = {<Home />} />
+        <Route path = "/about" element = {<About />} />
+        <Route path = "/skills" element = {<Skills />} />
+        <Route path = "/work" element = {<Work />} />
       </Routes>
-    </div>
-  );
-}
-
-export default App;
+    </Router>
+  </div>
+)}
