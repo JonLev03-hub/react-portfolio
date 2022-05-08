@@ -15,15 +15,15 @@ nav a {
 }
 nav a:hover {
     transition:linear .3s .1s;
-    color: #9d24b2;
+    color: #8a2be2;
 }
 
 .contact {
     background-color:transparent;
-    border: 2px solid #a813c2;
+    border: 2px solid blueviolet;
     border-radius: 5px;
     font-size: 1.2em;
-    color: #9d24b2;
+    color: blueviolet;
 }
 .contact:hover {
     border-color: #E6E6E6;
