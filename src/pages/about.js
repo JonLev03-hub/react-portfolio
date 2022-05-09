@@ -22,7 +22,7 @@ export default function About() {
           <br />
           <br />
           console.log("
-          <white>To get a better idea of what I do please see </white>
+          <white> To get a better idea of what I do please see </white>
           <Link to="/skills">this.Skills()</Link> ")
         </p>
         <h1>&#125;;</h1>
