@@ -4,6 +4,7 @@
     right:0;
     list-style: none;
     width:11vw;
+    max-width: 150px;
     height:5vw;
     max-height:200px;
     text-align:right;
