@@ -3,8 +3,7 @@
     max-width:800px;
     height:60vh;
     margin-left:20vw;
-    position:absolute;
-    bottom:0;
+    margin-top:40vh;
 }
 .article h1 {
     color: blueviolet;
@@ -23,10 +22,19 @@
 .article a {
     color: blueViolet;
     text-decoration: none;
+    font-weight:bold;
 }
 
 .article a:hover {
-    font-weight:bold;
     color: #e6e6e6;
-    transition: ease-in .5s .1s;
+    transition: ease-in .3s .1s;
+}
+
+.sideBar {
+    width:4px;
+    height:55vh;
+    background-color: blueviolet;
+    position:absolute;
+    right:80vw;
+    bottom:-5vh;
 }
