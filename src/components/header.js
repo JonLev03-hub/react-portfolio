@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import HeaderCss from './header.module.css';
+import styles from './header.module.css';
 export default function Header () {
     const links = [
         {
@@ -17,14 +17,14 @@ export default function Header () {
         }
     ];
     return (
-        <nav>
+        <nav className = {styles.nav}>
             <ul>
                 {links.map(link => (
                     <li key={link.name}>
                         <Link to={link.path}>{link.name}</Link>
                     </li>
                 ))}
-                <li><button className = {HeaderCss.contact}>Contact</button></li>
+                <li><button className = {styles.contact}>Contact</button></li>
             </ul>
 
         </nav>

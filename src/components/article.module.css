@@ -1,0 +1,32 @@
+.article {
+    width:70vw;
+    max-width:800px;
+    height:60vh;
+    margin-left:20vw;
+    position:absolute;
+    bottom:0;
+}
+.article h1 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.article p {
+    color:#808080;
+    margin-left:30px;
+}
+ 
+.article white {
+    color:#e6e6e6;
+}
+
+.article a {
+    color: blueViolet;
+    text-decoration: none;
+}
+
+.article a:hover {
+    font-weight:bold;
+    color: #e6e6e6;
+    transition: ease-in .5s .1s;
+}

@@ -3,16 +3,19 @@
     position:fixed;
     right:0;
     list-style: none;
-    width:170px;
-    height:200px;
+    width:11vw;
+    height:5vw;
+    max-height:200px;
     text-align:right;
     top:45%;
     margin-top:-100px;
 }
 
 .img {
-    width:80px;
-    height:80px;
+    width: 6vw;
+    height: 6vw;
+    max-width:80px;
+    max-height:80px;
     margin:0;
     padding:0;
 }
@@ -21,8 +24,10 @@
     background-color:blueviolet;
     margin:5px;
     padding:5px;
+    text-align: left;
 }
 .ul .li:hover{
     background-color: #E6E6E6;
+    width: 9vw;
     transition: ease-in-out .3s .1s;
 }
