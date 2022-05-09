@@ -1,7 +1,6 @@
 .nav ul {
     list-style:none;
     text-align: right;
-    margin-right: 5%;
 }
 .nav li {
     display:inline-block;
@@ -29,4 +28,9 @@
     border-color: #E6E6E6;
     color: #E6E6E6;
     transition: linear .3s .1s;
+}
+.nav h1 {
+    position:absolute;
+    top:10px;
+    left:20px;
 }

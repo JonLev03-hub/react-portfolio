@@ -35,7 +35,6 @@ export default function Home() {
           </p>
           &#125;
         </p>
-        <h1>&#125;;</h1>
       </Article>
     </div>
   );
