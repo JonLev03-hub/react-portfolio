@@ -1,10 +1,11 @@
+import CardTable from "../components/cardTable";
+import styles from "./work.module.css";
 export default function Work() {
-    return (
-        <div className = "work" >
-            <h1>Work</h1>
-            <p>
-                lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-        </div>
-    )
+  return (
+    <div className="work">
+      <CardTable>
+        <h1 className={styles.h1}>My Work &#123;</h1>
+      </CardTable>
+    </div>
+  );
 }

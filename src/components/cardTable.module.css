@@ -1,0 +1,13 @@
+.table{
+    margin:5vh auto;
+    width:85vw;
+    background-color:red;
+}
+
+.cardContainer {
+    margin-top:5vh;
+    display:flex;
+    flex-wrap:wrap;
+
+    justify-content:center;
+}

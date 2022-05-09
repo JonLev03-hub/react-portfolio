@@ -1,0 +1,14 @@
+.cardDeck {
+    position:relative;
+    background-color: #e6e6e6;
+    border: black  1px solid;
+    margin: 15px;
+    width:400px;
+    height:275px;
+}
+.card {
+    background-color:blue;
+    position:absolute;
+    width: 375px;
+    height: 250px;
+}

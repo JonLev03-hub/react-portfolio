@@ -7,13 +7,14 @@ export default function Home() {
       <SideLinks />
       <Article>
         <h1>
-          class Jonathan () &#123;
+          class <white>Jonathan</white> () &#123;
           <br />
         </h1>
         <p>
+          <br />
           Constructor() &#123;
           <br />
-          <p>
+          <h2>
              this.
             <strong>
               <white>name</white>
@@ -32,7 +33,7 @@ export default function Home() {
             <strong>
               <white>"Front-end Web Developer",</white>
             </strong>
-          </p>
+          </h2>
           &#125;
         </p>
       </Article>
