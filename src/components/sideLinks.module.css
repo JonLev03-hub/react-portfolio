@@ -29,6 +29,6 @@
 }
 .ul .li:hover{
     background-color: #E6E6E6;
-    width: 9vw;
+    width: 7vw;
     transition: ease-in-out .3s .1s;
 }
