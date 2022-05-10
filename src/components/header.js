@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./header.module.css";
-export default function Header() {
+export default function Header({ contactFunction }) {
   const links = [
     {
       name: "this.about()",
@@ -28,7 +28,9 @@ export default function Header() {
           </li>
         ))}
         <li>
-          <button className={styles.contact}>Contact</button>
+          <button className={styles.contact} onClick={contactFunction}>
+            Contact
+          </button>
         </li>
       </ul>
     </nav>
