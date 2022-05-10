@@ -3,45 +3,11 @@ import CardDeck from "../components/cardDeck";
 export default function CardTable(props) {
   const cards = [
     {
-      title: "BeatJus_",
-      image: "./images/about.png",
+      title: "BeatJus Website",
+      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      image: "./images/BeatJus.png",
       technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      language: "Javascript",
-      Link: "",
-    },
-    {
-      title: "BeatJus_",
-      image: "./images/about.png",
-      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      language: "Javascript",
-      Link: "",
-    },
-    {
-      title: "BeatJus_",
-      image: "./images/about.png",
-      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      language: "Javascript",
-      Link: "",
-    },
-    {
-      title: "BeatJus_",
-      image: "./images/about.png",
-      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      language: "Javascript",
-      Link: "",
-    },
-    {
-      title: "BeatJus_",
-      image: "./images/about.png",
-      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      language: "Javascript",
-      Link: "",
-    },
-    {
-      title: "BeatJus_",
-      image: "./images/about.png",
-      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      language: "Javascript",
+      languages: ["Html", "Css"],
       Link: "",
     },
   ];
