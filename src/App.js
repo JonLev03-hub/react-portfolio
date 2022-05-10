@@ -17,7 +17,6 @@ export default function App() {
   return (
     <div className="app">
       <Router>
-        <button onClick={togglePopup}></button>
         <Header contactFunction={togglePopup} />
         <ContactPopup show={showPopup} contactFunction={togglePopup} />
         <Routes>
