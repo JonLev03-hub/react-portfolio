@@ -7,7 +7,12 @@ export default function ContactForm({ show, contactFunction }) {
   return (
     <>
       <div className={styles.backdrop} onClick={contactFunction}></div>
-      <form className={styles.form}>
+      <form
+        className={styles.form}
+        action="https://formsubmit.co/211cd5fde9cf78af1f280318667564e7"
+        method="POST"
+        target="_blank"
+      >
         <h1>Contact Me</h1>
         <input type="text" name="name" placeholder="Name" />
         <input

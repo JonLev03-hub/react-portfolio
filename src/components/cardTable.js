@@ -10,6 +10,46 @@ export default function CardTable(props) {
       languages: ["Html", "Css"],
       Link: "",
     },
+    {
+      title: "BeatJus Website",
+      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      image: "./images/BeatJus.png",
+      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
+      languages: ["Html", "Css"],
+      Link: "",
+    },
+    {
+      title: "BeatJus Website",
+      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      image: "./images/BeatJus.png",
+      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
+      languages: ["Html", "Css"],
+      Link: "",
+    },
+    {
+      title: "BeatJus Website",
+      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      image: "./images/BeatJus.png",
+      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
+      languages: ["Html", "Css"],
+      Link: "",
+    },
+    {
+      title: "BeatJus Website",
+      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      image: "./images/BeatJus.png",
+      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
+      languages: ["Html", "Css"],
+      Link: "",
+    },
+    {
+      title: "BeatJus Website",
+      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      image: "./images/BeatJus.png",
+      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
+      languages: ["Html", "Css"],
+      Link: "",
+    },
   ];
   return (
     <div className={styles.table}>
