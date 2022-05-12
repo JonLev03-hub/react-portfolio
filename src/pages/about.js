@@ -1,9 +1,16 @@
 import SideLinks from "../components/sideLinks";
 import Article from "../components/article";
 import { Link } from "react-router-dom";
-export default function About() {
+import { motion } from "framer-motion";
+export default function About({ transition }) {
   return (
-    <div className="about">
+    <motion.div
+      className="about"
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={transition}
+    >
       <SideLinks />
       <Article>
         <h1>
@@ -27,6 +34,6 @@ export default function About() {
         </p>
         <h1>&#125;;</h1>
       </Article>
-    </div>
+    </motion.div>
   );
 }

@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
 import React from "react";
 import Header from "./components/header";
 import About from "./pages/about";
@@ -14,17 +15,39 @@ export default function App() {
     setShowPopup(!showPopup);
     console.log("triggered");
   };
+  const transition = {
+    in: {
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+        ease: "easeInOut",
+      },
+    },
+    out: {
+      opacity: 0,
+      transition: {
+        duration: 0.5,
+        delay: 0.5,
+        ease: "easeInOut",
+      },
+    },
+  };
   return (
     <div className="app">
       <Router>
-        <Header contactFunction={togglePopup} />
-        <ContactPopup show={showPopup} contactFunction={togglePopup} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/work" element={<Work />} />
-        </Routes>
+        <AnimatePresence>
+          <Header contactFunction={togglePopup} />
+          <ContactPopup show={showPopup} contactFunction={togglePopup} />
+          <Routes>
+            <Route path="/" element={<Home transition={transition} />} />
+            <Route path="/about" element={<About transition={transition} />} />
+            <Route
+              path="/skills"
+              element={<Skills transition={transition} />}
+            />
+            <Route path="/work" element={<Work transition={transition} />} />
+          </Routes>
+        </AnimatePresence>
       </Router>
     </div>
   );

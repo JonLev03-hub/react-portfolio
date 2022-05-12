@@ -1,8 +1,15 @@
+import { motion } from "framer-motion";
 import SideLinks from "../components/sideLinks";
 import Article from "../components/article";
-export default function Home() {
+export default function Home({ transition }) {
   return (
-    <div className="home">
+    <motion.div
+      className="home"
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={transition}
+    >
       <SideLinks />
       <Article>
         <h1>
@@ -36,6 +43,6 @@ export default function Home() {
           &#125;
         </p>
       </Article>
-    </div>
+    </motion.div>
   );
 }
