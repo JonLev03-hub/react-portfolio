@@ -43,13 +43,22 @@ export default function App() {
             transition={transition}
           />
           <Routes>
-            <Route path="/" element={<Home transition={transition} />} />
-            <Route path="/about" element={<About transition={transition} />} />
             <Route
-              path="/skills"
+              path="/react-portfolio/"
+              element={<Home transition={transition} />}
+            />
+            <Route
+              path="/react-portfolio/about"
+              element={<About transition={transition} />}
+            />
+            <Route
+              path="/react-portfolio/skills"
               element={<Skills transition={transition} />}
             />
-            <Route path="/work" element={<Work transition={transition} />} />
+            <Route
+              path="/react-portfolio/work"
+              element={<Work transition={transition} />}
+            />
           </Routes>
         </AnimatePresence>
       </Router>
