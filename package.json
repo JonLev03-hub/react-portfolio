@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jonlev03-hub.github.io/react-portfolio",
+  "homepage": "http://jonlev03-hub.github.io/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeplot": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
