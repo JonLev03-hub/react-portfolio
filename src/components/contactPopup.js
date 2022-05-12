@@ -1,6 +1,7 @@
 import styles from "./contactPopup.module.css";
 import { useState } from "react";
-export default function ContactForm({ show, contactFunction }) {
+import { motion } from "framer-motion";
+export default function ContactForm({ show, contactFunction, transition }) {
   if (!show) {
     return null;
   }

@@ -8,7 +8,7 @@ export default function CardDeck(props) {
         src={deck.image}
         alt="Well this is supposed to be a super cool website image but I guess you just get text instead."
       ></img>
-      <a>
+      <a href={deck.Link} className="test" target="_blank">
         <div className={styles.bottomCard}>
           <h2 className={styles.h2}>{deck.title}</h2>
           <p className={styles.desc}>{deck.desc}</p>
@@ -25,6 +25,7 @@ export default function CardDeck(props) {
               <li>{item}</li>
             ))}
           </ul>
+
           <p className={styles.link}>Click the card to checkout the project!</p>
         </div>
       </a>
