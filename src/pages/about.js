@@ -20,7 +20,7 @@ export default function About({ transition }) {
         <p>
           console.log(" <br />
           <white>
-            My name is Jonathan Leverenz, and I specialize in building unique
+            My name is Jonathan Leverenz. I specialize in building unique
             websites for businesses! I have experience using HTML, Css,
             Javascript, and React; and that's just the start.
           </white>
