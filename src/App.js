@@ -37,11 +37,6 @@ export default function App() {
       <Router>
         <AnimatePresence>
           <Header contactFunction={togglePopup} />
-          <ContactPopup
-            show={showPopup}
-            contactFunction={togglePopup}
-            transition={transition}
-          />
           <Routes>
             <Route path="/" element={<Home transition={transition} />} />
             <Route path="/about" element={<About transition={transition} />} />

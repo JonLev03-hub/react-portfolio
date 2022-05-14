@@ -28,9 +28,12 @@ export default function Header({ contactFunction }) {
           </li>
         ))}
         <li>
-          <button className={styles.contact} onClick={contactFunction}>
+          <a
+            className={styles.contact}
+            href="mailto:JonathanMLeverenz@hotmail.com"
+          >
             Contact
-          </button>
+          </a>
         </li>
       </ul>
     </nav>
