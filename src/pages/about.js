@@ -30,7 +30,7 @@ export default function About({ transition }) {
           <br />
           console.log("
           <white> To get a better idea of what I do please see </white>
-          <Link to="/react-portfolio/skills">this.Skills()</Link> ")
+          <Link to="/skills">this.Skills()</Link> ")
         </p>
         <h1>&#125;;</h1>
       </Article>

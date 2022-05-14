@@ -4,22 +4,22 @@ export default function Header({ contactFunction }) {
   const links = [
     {
       name: "this.about()",
-      path: "/react-portfolio/about",
+      path: "/about",
     },
     {
       name: "this.skills()",
-      path: "/react-portfolio/skills",
+      path: "/skills",
     },
     {
       name: "this.work",
 
-      path: "/react-portfolio/work",
+      path: "/work",
     },
   ];
   return (
     <nav className={styles.nav}>
       <h1>
-        <Link to="/react-portfolio/">Jonathan Leverenz</Link>
+        <Link to="/">Jonathan Leverenz</Link>
       </h1>
       <ul>
         {links.map((link) => (
