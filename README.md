@@ -7,4 +7,5 @@ The code is not final as this project is still a work in progress. The current s
 Current features in development 
 1. More Information on projects through card decks.
 2. Pages switching on scroll
-3. Resume display area
+3. Resume display area inside of front page
+4. update bio and skills
