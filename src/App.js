@@ -1,7 +1,4 @@
 import Styles from "./App.module.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
-import { AnimatePresence } from "framer-motion";
 import React from "react";
 import NavBar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
@@ -11,19 +8,21 @@ import Work from "./pages/Work/Work";
 export default function App() {
   return (
     <div className="app">
-      <Router>
-        <NavBar />
-        <main className={Styles.main}>
-          <AnimatePresence>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/work" element={<Work />} />
-            </Routes>
-          </AnimatePresence>
-        </main>
-      </Router>
+      <NavBar />
+      <main className={Styles.main}>
+        <section className={Styles.section} id="home">
+          <Home />
+        </section>
+        <section className={Styles.section} id="about">
+          <About />
+        </section>
+        <section className={Styles.section} id="skills">
+          <Skills />
+        </section>
+        <section className={Styles.section} id="work">
+          <Work />
+        </section>
+      </main>
     </div>
   );
 }

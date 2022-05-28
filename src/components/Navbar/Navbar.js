@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import Styles from "./Navbar.module.css";
 import icon from "./Hamberger.png";
 export default function Navbar() {
@@ -24,25 +24,25 @@ export default function Navbar() {
 
   return (
     <nav className={Styles.nav}>
-      <Link to="/">
+      <a href="#">
         <h1 className={Styles.title}>Jonathan Leverenz</h1>
-      </Link>
+      </a>
       {(toggleMenu || screenWidth > 700) && (
         <ul className={Styles.list}>
           <li className={Styles.items}>
-            <Link to="/about" className={Styles.items}>
+            <a href="#about" className={Styles.items}>
               this.About
-            </Link>
+            </a>
           </li>
           <li className={Styles.items}>
-            <Link to="/skills" className={Styles.items}>
+            <a href="#skills" className={Styles.items}>
               this.Skills
-            </Link>
+            </a>
           </li>
           <li className={Styles.items}>
-            <Link to="/work" className={Styles.items}>
+            <a href="#work" className={Styles.items}>
               this.Work
-            </Link>
+            </a>
           </li>
           <li>
             <a

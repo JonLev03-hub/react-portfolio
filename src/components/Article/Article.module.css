@@ -2,11 +2,11 @@
     width: 60vw;
     margin-left: 15vw;
     /* border-left: 3px solid blueviolet; */
-    position: absolute;
-    top: 40vh;
-    padding-left:20px;
-    min-height: 52vh;
+    /* margin-top:10vh; */
+    margin-left:20vw;
+    min-height:45vh;
     box-shadow: -7px 0px 5px -5px blueviolet;
+    
 }
 .article h1 {
     color: blueviolet;
@@ -70,6 +70,9 @@
     .article h2 white {
         font-size:1.2rem;
         display:block;
+    }
+    p > white::before {
+        content: "> ";
     }
 }
 
