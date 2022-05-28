@@ -7,6 +7,7 @@ import NavBar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Skills from "./pages/Skills/Skills";
+import Work from "./pages/Work/Work";
 export default function App() {
   return (
     <div className="app">
@@ -18,6 +19,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/skills" element={<Skills />} />
+              <Route path="/work" element={<Work />} />
             </Routes>
           </AnimatePresence>
         </main>
