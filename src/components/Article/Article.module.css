@@ -18,6 +18,7 @@
 
 .article h2 {
     font-size: 1.3rem;
+    color: #808080;
 }
 
 .article p {
@@ -57,14 +58,16 @@
         font-size: 2.5rem;
 
     }
-    .article strong white {
+    .article p strong white {
         color: blueviolet;
     }
-    .article p {
+    .article p,
+    .article h2 {
         font-size:5px;
         color:transparent;
     }
-    .article p white {
+    .article p white,
+    .article h2 white {
         font-size:1.2rem;
         display:block;
     }

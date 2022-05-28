@@ -10,28 +10,22 @@ export default function Home() {
         <br />
         Constructor() &#123;
         <br />
-        <h2>
-           this.
-          <strong>
-            <white>name</white>
-          </strong>{" "}
-          =
-          <strong>
-            <white>"Jonathan Leverenz"</white>
-          </strong>
-          ,
-          <br />
-           this.
-          <strong>
-            <white>title</white>
-          </strong>{" "}
-          =
-          <strong>
-            <white>"Front-end Web Developer",</white>
-          </strong>
-        </h2>
-        &#125;
       </p>
+      <h2 style={{ paddingLeft: "20px" }}>
+         this.
+        <strong>name</strong> =
+        <strong>
+          "<white>Jonathan Leverenz</white>"
+        </strong>
+        ,
+        <br />
+         this.
+        <strong>title</strong> =
+        <strong>
+          "<white>Front-end Web Developer</white>"
+        </strong>
+      </h2>
+      <p>&#125;</p>
     </Article>
   );
 }
