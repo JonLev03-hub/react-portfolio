@@ -9,7 +9,7 @@ export default function Skills() {
       <p>
         const skills = &#123; <br />
       </p>
-      <p style={{ "padding-left": "20px" }}>
+      <p style={{ paddingLeft: "20px" }}>
         "
         <strong>
           <white>Languages</white>
@@ -29,12 +29,12 @@ export default function Skills() {
         <strong>
           <white>Web-development</white>
         </strong>
-        " : ["<white>React"</white>, "<white>Redux</white>", "
+        " : ["<white>React</white>", "<white>Redux</white>", "
         <white>Flask</white>"] <br />"
         <strong>
           <white>Soft-skills</white>
         </strong>
-        " : ["<white>Problem Solving"</white>, "<white>Learning"</white>, "
+        " : ["<white>Problem Solving</white>", "<white>Learning</white>", "
         <white>Communication</white>"]{" "}
       </p>
       <p>&#125;; console.log(skills);</p>

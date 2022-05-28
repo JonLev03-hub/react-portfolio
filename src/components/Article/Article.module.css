@@ -8,7 +8,6 @@
     min-height: 52vh;
     box-shadow: -7px 0px 5px -5px blueviolet;
 }
-
 .article h1 {
     color: blueviolet;
     font-weight: bold;
@@ -56,7 +55,18 @@
     }
     .article h1 {
         font-size: 2.5rem;
-        color:blue;
+
+    }
+    .article strong white {
+        color: blueviolet;
+    }
+    .article p {
+        font-size:5px;
+        color:transparent;
+    }
+    .article p white {
+        font-size:1.2rem;
+        display:block;
     }
 }
 
