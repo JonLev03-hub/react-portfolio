@@ -45,7 +45,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <a className={Styles.contact}>Contact</a>
+            <a
+              className={Styles.contact}
+              href="mailto:JonathanMLeverenz@hotmail.com"
+            >
+              Contact
+            </a>
           </li>
         </ul>
       )}

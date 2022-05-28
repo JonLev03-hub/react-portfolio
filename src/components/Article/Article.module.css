@@ -1,11 +1,12 @@
 .article {
     width: 60vw;
     margin-left: 15vw;
-    border-left: 3px solid blueviolet;
+    /* border-left: 3px solid blueviolet; */
     position: absolute;
     top: 40vh;
     padding-left:20px;
     min-height: 52vh;
+    box-shadow: -7px 0px 5px -5px blueviolet;
 }
 
 .article h1 {
@@ -24,7 +25,6 @@
     color: #808080;
     margin-left: 20px;
 }
-
 .article white {
     color: #e6e6e6;
 }
@@ -44,6 +44,7 @@
     .article {
         width: 80vw;
         margin-left: 10vw;
+        top:35vh;
     }
 }
 @media screen and (max-width: 600px) {
@@ -51,9 +52,11 @@
         width: 85vw;
         margin-left: 3vw;
         padding-left:10px;
+        top:30vh;
     }
     .article h1 {
         font-size: 2.5rem;
+        color:blue;
     }
 }
 
