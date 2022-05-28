@@ -1,0 +1,64 @@
+.article {
+    width: 60vw;
+    margin-left: 15vw;
+    border-left: 3px solid blueviolet;
+    position: absolute;
+    top: 40vh;
+    padding-left:20px;
+    min-height: 52vh;
+}
+
+.article h1 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom:15px;
+    letter-spacing: 0px;
+}
+
+.article h2 {
+    font-size: 1.3rem;
+}
+
+.article p {
+    color: #808080;
+    margin-left: 20px;
+}
+
+.article white {
+    color: #e6e6e6;
+}
+
+.article a {
+    color: blueviolet;
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+}
+
+.article a:hover {
+        /* font-weight: 400; */
+            color: hsl(271, 96%, 93%);
+            text-shadow: 0 0 1em blueviolet, 0 0 1.5em blueviolet;
+}
+@media screen and (max-width: 768px) {
+    .article {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .article {
+        width: 85vw;
+        margin-left: 3vw;
+        padding-left:10px;
+    }
+    .article h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .article h2 {
+        font-size:1rem;
+    }
+}
