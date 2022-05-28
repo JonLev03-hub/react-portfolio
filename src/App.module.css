@@ -3,14 +3,21 @@
     height:calc(100vh - 50px);
     overflow:scroll;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 .section {
     position:relative;
-    min-height: calc(94vh - 50px);
+    min-height: calc(88vh - 50px);
     scroll-snap-align: start;
     display:flex;
     flex-direction:column;
     justify-content:end;
-    padding-bottom:20vh;
+    padding:6vh 0;
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        justify-content: start;
+    }
 }

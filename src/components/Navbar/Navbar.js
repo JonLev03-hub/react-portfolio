@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <nav className={Styles.nav}>
-      <a href="#">
+      <a href="#home">
         <h1 className={Styles.title}>Jonathan Leverenz</h1>
       </a>
       {(toggleMenu || screenWidth > 700) && (
