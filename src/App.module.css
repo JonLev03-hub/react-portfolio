@@ -4,20 +4,25 @@
     overflow:scroll;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    scroll-padding-bottom:30vh;
+
 }
 
 .section {
     position:relative;
     min-height: calc(88vh - 50px);
-    scroll-snap-align: start;
     display:flex;
     flex-direction:column;
     justify-content:end;
     padding:6vh 0;
+    scroll-snap-align: start;
 }
 
 @media screen and (max-width: 600px) {
     .section {
-        justify-content: start;
+        justify-content: center;
+    }
+    .main {
+        scroll-padding-bottom: 50vh;
     }
 }
