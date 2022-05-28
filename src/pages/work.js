@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import CardTable from "../components/cardTable";
 import styles from "./work.module.css";
+import CardTable from "../components/cardTable.js";
 export default function Work({ transition }) {
   return (
     <motion.div
@@ -10,9 +10,7 @@ export default function Work({ transition }) {
       exit="out"
       variants={transition}
     >
-      <CardTable>
-        <h1 className={styles.h1}>My Work &#123;</h1>
-      </CardTable>
+      <CardTable />
     </motion.div>
   );
 }

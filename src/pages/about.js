@@ -29,8 +29,14 @@ export default function About({ transition }) {
           <br />
           <br />
           console.log("
-          <white> To get a better idea of what I do please see </white>
-          <Link to="/skills">this.Skills()</Link> ")
+          <white>
+            {" "}
+            To get a better idea of what I do checkout my general resume{" "}
+          </white>
+          <a href="./assets/JonathanLeverenz.pdf" target="_blank">
+            this.Resume()
+          </a>{" "}
+          ")
         </p>
         <h1>&#125;;</h1>
       </Article>

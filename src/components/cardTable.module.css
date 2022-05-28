@@ -1,11 +1,5 @@
-.table{
-    margin:5vh auto;
-    width:85vw;
-}
-
-.cardContainer {
-    margin-top:5vh;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+.cardTable {
+    width:80vw;
+    margin:20vh auto;
+    min-height:500px;
 }

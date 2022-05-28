@@ -1,24 +1,39 @@
-import styles from "./cardTable.module.css";
-import CardDeck from "../components/cardDeck";
-export default function CardTable(props) {
+import Styles from "./cardTable.module.css";
+import Card from "./card.js";
+export default function CardTable() {
   const cards = [
     {
-      title: "BeatJus Website",
-      desc: "Simple Videography website made for an independent contractor so he can showcase his work.",
+      title: "Card 1",
+      description: "This is the first card",
+      tech: ["React", "Redux", "Node", "Express", "MongoDB"],
       image: "./images/BeatJus.png",
-      technologies: ["HTML", "CSS", "Javascript", "React", "Redux", "Flask"],
-      languages: ["Html", "Css"],
-      Link: "https://beatjus.com",
+      links: [
+        {
+          text: "Link 1",
+          url: "https://www.google.com",
+        },
+        {
+          text: "Link 2",
+          url: "https://www.google.com",
+        },
+      ],
+      extraContent: [
+        {
+          title: "Extra Content 1",
+          text: "https://www.google.com",
+        },
+        {
+          title: "Extra Content 2",
+          text: "https://www.google.com",
+        },
+      ],
     },
   ];
   return (
-    <div className={styles.table}>
-      {props.children}
-      <div className={styles.cardContainer}>
-        {cards.map((card) => (
-          <CardDeck props={card} />
-        ))}
-      </div>
+    <div className={Styles.cardTable}>
+      {cards.map((card, index) => (
+        <Card key={index} {...card} />
+      ))}
     </div>
   );
 }

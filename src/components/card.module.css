@@ -1,0 +1,11 @@
+.card {
+    width:400px;
+    position:relative;
+    background-color:rgb(59, 59, 59);
+    min-height:700px;
+    margin: 40px;
+}
+.image {
+    width:100%;
+    margin-bottom:30px;
+}
