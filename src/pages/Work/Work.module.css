@@ -3,11 +3,6 @@
     padding-top:20px;
     width:80vw;
     margin:0 auto;
-    /* border: 2px solid blueviolet; */
-    /* display:grid;
-    grid-auto-columns: clamp(300px, 25vw, 400px);
-    grid-auto-rows: 75vh;
-    grid-gap:40px; */
     display:flex;
     flex-wrap:wrap;
     flex-shrink:0;
@@ -16,9 +11,10 @@
     scroll-behavior: smooth;
     /* position:relative; */
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .container {
         width:95vw;
+        scroll-snap-type: none;
     }
 }
 .header {
