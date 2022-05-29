@@ -4,7 +4,7 @@
     overflow:scroll;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-    scroll-padding-bottom:30vh;
+    /* scroll-padding-bottom:30vh; */
 
 }
 
@@ -14,15 +14,17 @@
     display:flex;
     flex-direction:column;
     justify-content:end;
-    padding:6vh 0;
+    padding:5vh 0;
     scroll-snap-align: start;
 }
-
 @media screen and (max-width: 600px) {
     .section {
         justify-content: center;
     }
+    .section:nth-child(1) {
+        padding:0;
+    }
     .main {
-        scroll-padding-bottom: 50vh;
+        scroll-snap-type: none;
     }
 }

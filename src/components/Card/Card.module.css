@@ -1,0 +1,46 @@
+
+.card {
+    display:inline-block;
+    height:80%;
+    max-height:700px;
+    width: clamp(300px, 25vw, 400px);
+    border:blueviolet solid 1px;
+    margin: 2vh auto;
+    scroll-snap-align: center;
+    box-shadow: 0 0 .05em white,0 0 .9em blueviolet;
+    display:flex;
+    background:#1a1a1a;
+    cursor: pointer;
+}
+.card:hover {
+    border-color: hsl(271, 96%, 63%);
+    box-shadow: 0 0 1.5em blueviolet;
+}
+.card:focus {
+    width:auto;
+    position:absolute;
+    top:50%;
+    left:50%; 
+     transform: translate(-50%,-50%);
+    box-shadow: 0 0 4em black, 0 0 1em blueviolet;
+    cursor: default;
+}
+.card:focus .extra {
+    display:inline-block;
+
+}
+.sample{
+    height:100%;
+    width: clamp(300px, 25vw, 400px);
+    display:inline-block;
+}
+.extra {
+    display:none;
+    height: 100%;
+    width: clamp(300px, 40vw, 600px);
+    border-left:2px solid blueviolet
+}
+
+.img {
+    width:100%;
+}

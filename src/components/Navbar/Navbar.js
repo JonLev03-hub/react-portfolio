@@ -28,31 +28,36 @@ export default function Navbar() {
         <h1 className={Styles.title}>Jonathan Leverenz</h1>
       </a>
       {(toggleMenu || screenWidth > 700) && (
-        <ul className={Styles.list}>
-          <li className={Styles.items}>
-            <a href="#about" className={Styles.items}>
-              this.About
-            </a>
-          </li>
-          <li className={Styles.items}>
-            <a href="#skills" className={Styles.items}>
-              this.Skills
-            </a>
-          </li>
-          <li className={Styles.items}>
-            <a href="#work" className={Styles.items}>
-              this.Work
-            </a>
-          </li>
-          <li>
-            <a
-              className={Styles.contact}
-              href="mailto:JonathanMLeverenz@hotmail.com"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
+        <>
+          <div onClick={toggleNav} className={Styles.backdrop}>
+            {" "}
+          </div>
+          <ul className={Styles.list}>
+            <li className={Styles.items}>
+              <a href="#about" className={Styles.items}>
+                this.About
+              </a>
+            </li>
+            <li className={Styles.items}>
+              <a href="#skills" className={Styles.items}>
+                this.Skills
+              </a>
+            </li>
+            <li className={Styles.items}>
+              <a href="#work" className={Styles.items}>
+                this.Work
+              </a>
+            </li>
+            <li>
+              <a
+                className={Styles.contact}
+                href="mailto:JonathanMLeverenz@hotmail.com"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </>
       )}
       <button onClick={toggleNav} className={Styles.hambergerBtn}>
         <img className={Styles.img} src={icon} alt="Menu" />

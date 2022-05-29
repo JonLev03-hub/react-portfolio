@@ -1,0 +1,29 @@
+.container {
+    height:78vh;
+    padding-top:20px;
+    width:80vw;
+    margin:0 auto;
+    /* border: 2px solid blueviolet; */
+    /* display:grid;
+    grid-auto-columns: clamp(300px, 25vw, 400px);
+    grid-auto-rows: 75vh;
+    grid-gap:40px; */
+    display:flex;
+    flex-wrap:wrap;
+    flex-shrink:0;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    /* position:relative; */
+}
+@media screen and (max-width: 700px) {
+    .container {
+        width:95vw;
+    }
+}
+.header {
+    font-size:3.5rem;
+    color:blueviolet;
+    width:80vw;
+    margin:0 auto;
+}
