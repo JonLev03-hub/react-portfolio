@@ -40,12 +40,8 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: none
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+    background: blueviolet;
+    border-radius: 10px;
 }
 ::-webkit-scrollbar-corner {
     background: none;
