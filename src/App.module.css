@@ -9,7 +9,6 @@
 }
 
 .section {
-    position:relative;
     min-height: calc(88vh - 50px);
     display:flex;
     flex-direction:column;
