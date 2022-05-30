@@ -27,3 +27,26 @@
         scroll-snap-type: none;
     }
 }
+/* width */
+::-webkit-scrollbar {
+    width:7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: none
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+::-webkit-scrollbar-corner {
+    background: none;
+}
