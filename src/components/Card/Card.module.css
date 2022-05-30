@@ -12,6 +12,7 @@
     background:#1a1a1a;
     cursor: pointer;
     overflow:hidden;
+    height:100%;
 }
 .card:hover {
     border-color: hsl(271, 96%, 63%);
