@@ -29,7 +29,7 @@
 }
 .extra {
     display:none;
-    width: clamp(300px, 40vw, 600px);
+    width: clamp(300px, 50vw, 80vw);
 }
 
 .img {
@@ -110,4 +110,10 @@
         left:50%;
         transform:translate(-50%,-50%); 
     }
+}
+@media screen and (max-width: 700px) {
+        .card:focus .extra {
+                width: 90vw;
+                max-width: none;
+            }
 }
