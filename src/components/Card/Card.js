@@ -4,7 +4,11 @@ export default function Card(props) {
   return (
     <div className={Styles.card} tabIndex="0">
       <div className={Styles.sample}>
-        <img src={props.img} alt="sample" className={Styles.img} />
+        <img
+          src={props.img}
+          alt="Image of the website I have Created"
+          className={Styles.img}
+        />
         <div className={Styles.textContainer}>
           <h1>{props.title}</h1>
           <ul className={Styles.techList}>
@@ -21,6 +25,7 @@ export default function Card(props) {
               Github
             </a>
           </div>
+          <p className={Styles.moreInfo}>Click the card for more info</p>
         </div>
       </div>
       <div className={Styles.extra}>

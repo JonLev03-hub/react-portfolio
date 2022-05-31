@@ -1,6 +1,7 @@
 
 /* Card Styling */
 .card {
+    position: relative;
     flex-shrink: 0;
     display:inline-block;
     width: clamp(300px, 25vw, 400px);
@@ -11,6 +12,7 @@
     background:#1a1a1a;
     cursor: pointer;
     overflow:hidden;
+    /* transition:all .3s .3s ease-in-out; */
 }
 .card:hover {
     border-color: hsl(271, 96%, 63%);
@@ -28,8 +30,9 @@
     display:inline-block;
 }
 .extra {
+
     display:none;
-    width: clamp(300px, 50vw, 80vw);
+    max-width:40em;
 }
 
 .img {
@@ -51,7 +54,7 @@
 /* Card text styling */
 .textContainer {
     margin: 10px;
-    position: relative;
+    /* position: relative; */
     color:white;
 }
 .textContainer h1 {
@@ -72,7 +75,9 @@
     margin:10px;
 }
 .links {
-    margin:35px 0;
+    margin-top:15px;
+    margin-bottom:50px;
+    display:inline-block;
 }
 .links a {
 
@@ -88,6 +93,19 @@
     color:blueviolet;
     transition: all .2s ease-in-out;
 }
+p.moreInfo {
+    background-color:blueviolet;
+    width:fit-content; 
+    padding:.2rem .5rem;
+    border-radius:.4rem;
+    color:black;
+    font-weight:bold;
+    position:absolute;
+    bottom:10px;
+    right:50%;
+    transform:translate(50%,0);
+    margin:0;
+}
 
 .links a:hover {
     font-weight: 400;
@@ -96,20 +114,14 @@
     border-color: hsl(271, 96%, 63%);
     box-shadow: 0 0 .4em blueviolet;
 }
-    .card:focus {
-    width:fit-content;
-    box-shadow: 0 0 4em black, 0 0 1em blueviolet;
-    cursor: default;
-    z-index:100;
-    }
-
-@media screen and (min-width: 700px) {
-    .card:focus {
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-50%); 
-    }
+.card:focus {
+width:fit-content;
+box-shadow: 0 0 4em black, 0 0 1em blueviolet;
+cursor: default;
+z-index:100;
+}
+.card:focus .moreInfo{
+    display:none;
 }
 @media screen and (max-width: 700px) {
         .card:focus .extra {
