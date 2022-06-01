@@ -13,4 +13,4 @@ Inside this projects section there is a side scroller where you can view differe
 ![image](https://user-images.githubusercontent.com/81537476/171311430-3021f604-20d2-4fd6-af03-ea3e9d7a8aa3.png)
 
 
-This portfolio is a good project But it still has room for improvement. I would love to add more use of images to the site and keep the simple design. 
+This portfolio is a good project But it still has room for improvement. I would love to add more use of images to the site and keep the simple design. I would also love to add more animation into the website so it is more visually stimulating. 
