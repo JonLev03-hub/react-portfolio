@@ -2,10 +2,15 @@
 
 When moving into web-development it is standard to have a web portfolio to display your work. To ensure that I can showcase my skills I have designed and created a web portfolio. This web portfolio was designed with a free wireframe software on micro.com, then the side was built with react.js. 
 
-The code is not final as this project is still a work in progress. The current site effectively displays your projects but it has some faults that need addressed. To follow that anything can be better with proper decoration. 
+Link to web portfolio: https://abstractstudent.com/
 
-Current features in development 
-1. More Information on projects through card decks.
-2. Pages switching on scroll
-3. Resume display area inside of front page
-4. update bio and skills
+## Homepage
+![image](https://user-images.githubusercontent.com/81537476/171311201-781c9423-9898-478a-b348-55a90b1dd054.png)
+This portfolio was designed to have a minimalist feel but still accurately depict the work I have done. I included multiple sections where you can learn information about me and at the bottom there is a projects section where you can view some of the wor I have made. 
+
+## Projects section
+Inside this projects section there is a side scroller where you can view different cards displaying projects, and on focus they will expand giving more information on the project, what I have done in that project, and what problems I had run into. 
+![image](https://user-images.githubusercontent.com/81537476/171311430-3021f604-20d2-4fd6-af03-ea3e9d7a8aa3.png)
+
+
+This portfolio is a good project But it still has room for improvement. I would love to add more use of images to the site and keep the simple design. 
