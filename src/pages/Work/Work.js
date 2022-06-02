@@ -50,7 +50,7 @@ export default function Work() {
       description:
         "This is one of the first projects I had made in web development. This is a portfolio created in Html Css and Javascript that pulls your projects in from github and displays them along with some information about you.",
       link: "jonlev03-hub.github.io/portfolio/",
-      github: "https://github.com/jonlev03-hub/portfolio",
+      github: "https://jonlev03-hub.github.io/Portfolio/",
       tech: ["Javascript", "HTML", "CSS"],
       extra: [
         {
