@@ -5,10 +5,12 @@ import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Skills from "./pages/Skills/Skills";
 import Work from "./pages/Work/Work";
+import SideLinks from "./components/SideLinks/SideLinks";
 export default function App() {
   return (
     <div className="app">
       <NavBar />
+      <SideLinks />
       <main className={Styles.main}>
         <section className={Styles.section} id="home">
           <Home />

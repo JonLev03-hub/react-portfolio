@@ -11,8 +11,10 @@ export default function About() {
         console.log(" <br />
         <white>
           My name is Jonathan Leverenz. I specialize in building unique websites
-          for businesses! I have experience using HTML, Css, Javascript, and
-          React; and that's just the start.
+          for businesses! I started in data analytics but soon realized I had a
+          passion for building applications and websites. I am currently a data
+          analytics instructor at the University of Central Florida, but would
+          love to do web development Full Time.
         </white>
         <br />
         ");

@@ -5,15 +5,18 @@
     display:flex;
     overflow-x: scroll;
 }
+.header {
+    font-size: 3.5rem;
+    color: blueviolet;
+    width: 80vw;
+    margin: 0 auto;
+}
 @media screen and (max-width: 800px) {
     .container {
         width:95vw;
         scroll-snap-type: none;
     }
-}
-.header {
-    font-size:3.5rem;
-    color:blueviolet;
-    width:80vw;
-    margin:0 auto;
+    .header {
+        font-size: 2.5rem;
+    }
 }
