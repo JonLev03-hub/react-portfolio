@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <nav className={Styles.nav}>
-      <a href="#home">
+      <a href="/">
         <h1 className={Styles.title}>Jonathan Leverenz</h1>
       </a>
       {(toggleMenu || screenWidth > 700) && (
@@ -34,17 +34,17 @@ export default function Navbar() {
           </div>
           <ul className={Styles.list}>
             <li className={Styles.items}>
-              <a href="#about" className={Styles.items}>
+              <a href="/about" className={Styles.items}>
                 this.About
               </a>
             </li>
             <li className={Styles.items}>
-              <a href="#skills" className={Styles.items}>
+              <a href="/skills" className={Styles.items}>
                 this.Skills
               </a>
             </li>
             <li className={Styles.items}>
-              <a href="#work" className={Styles.items}>
+              <a href="/work" className={Styles.items}>
                 this.Work
               </a>
             </li>
