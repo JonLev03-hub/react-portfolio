@@ -1,20 +1,6 @@
-.main {
+.app {
     margin-top:50px;
-    height:calc(100vh - 50px);
-    overflow:scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    /* scroll-padding-bottom:30vh; */
-
-}
-
-.section {
-    min-height: calc(88vh - 50px);
-    display:flex;
-    flex-direction:column;
-    justify-content:end;
-    padding:5vh 0;
-    scroll-snap-align: start;
+    min-height:calc(100vh - 50px);
 }
 @media screen and (max-width: 600px) {
     .section {

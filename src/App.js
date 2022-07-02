@@ -14,7 +14,7 @@ import {
 } from "react-router-dom";
 export default function App() {
   return (
-    <div className="app">
+    <div className={Styles.app}>
       <NavBar />
       <SideLinks />
       <Router basename={process.env.PUBLIC_URL}>
