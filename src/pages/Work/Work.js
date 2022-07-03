@@ -74,13 +74,10 @@ export default function Work() {
           <Card
             img={card.img}
             title={card.title}
-            description={card.description}
+            md={card.description}
             link={card.link}
             github={card.github}
             tech={card.tech}
-            myResponsibilitys={card.myResponsibilitys}
-            problems={card.problems}
-            extra={card.extra}
           />
         ))}
       </div>
