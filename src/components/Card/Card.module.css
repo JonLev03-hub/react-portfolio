@@ -94,6 +94,27 @@
     border-color: hsl(271, 96%, 63%);
     box-shadow: 0 0 .4em blueviolet;
 }
+.container {
+    width: 80vw;
+    height: 500px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(26, 26, 26, 0.5);
+}
+
+.document {
+    max-width: 815px;
+    min-height: 500px;
+    padding: 15px 15px;
+    background: white;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        width: 95vw;
+    }
+}
 
 @media screen and (max-width:850px) {
     .card {
