@@ -22,7 +22,9 @@ export default function Card(props) {
   const [popupText, setPopupText] = useState("");
   const togglePopup = async () => {
     try {
-      const url = `https://raw.githubusercontent.com/JonLev03-hub/media-pilot/main/README.md`;
+      const split = props.github.split("/");
+      const repo = split[split.length - 1];
+      const url = `https://raw.githubusercontent.com/JonLev03-hub/${repo}/main/README.md`;
       const result = await axios.get(url);
       setPopupText(result.data);
     } catch (err) {
@@ -36,8 +38,13 @@ export default function Card(props) {
   return (
     <>
       {popupText && (
-        <div className={Styles.container} onClick={() => setPopupText("")}>
-          <div className={Styles.document}>{popupText}</div>
+        <div className={Styles.container}>
+          <div className={Styles.document}>
+            <button className={Styles.close} onClick={() => setPopupText("")}>
+              +
+            </button>
+            {popupText}
+          </div>
         </div>
       )}
       <div className={Styles.card} onClick={togglePopup}>

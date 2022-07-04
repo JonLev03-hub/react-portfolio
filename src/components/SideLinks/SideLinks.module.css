@@ -29,7 +29,7 @@
     padding:0 20px;
     box-shadow: 0 0 7px blueviolet;
 }
-@media (max-width: 608px) {
+@media (max-width: 750px) {
     .container {
         flex-direction: row;
         bottom:0;

@@ -96,21 +96,36 @@
 }
 .container {
     width: 80vw;
-    height: 500px;
     position: fixed;
     z-index: 10;
     background-color: rgba(26, 26, 26, 0.5);
+    height:80vh;
+    overflow:scroll;
 }
 
 .document {
     max-width: 815px;
-    min-height: 500px;
-    padding: 15px 15px;
+    padding: 80px 25px;
     background: white;
     margin: 0 auto;
+    position:relative;
+    margin-bottom:100px;
+}
+.close {
+    transform:rotate(45deg);
+    border-radius: 50%;
+    font-weight:bold;
+    font-size:40px;
+    background-color:transparent;
+    border:none;
+    line-height:30px;
+    width:30px;
+    position:absolute;
+    top:20px;
+    right:15px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 650px) {
     .container {
         width: 95vw;
     }
