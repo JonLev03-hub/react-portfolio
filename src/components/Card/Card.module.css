@@ -95,13 +95,18 @@
     box-shadow: 0 0 .4em blueviolet;
 }
 .container {
-    width: 80vw;
+    width: 90vw;
+    height: 70vh;
+    padding: 15vh 5vw;
     position: fixed;
     z-index: 1000;
-    height:100%;
     overflow:scroll;
     display:flex;
     justify-content: center;
+    background:rgba(0,0,0,.3);
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 .document {
@@ -109,11 +114,11 @@
     height:fit-content;
     padding: 50px 25px;
     background: white;
-    margin: 10px;
     position:relative;
-    margin-bottom:100px;
     background-color: #151515;
     box-shadow:0 0 5px 0px hsl(271, 96%, 63%);
+    border:2px solid blueviolet;
+    z-index:1001;
 }
 .close {
     transform:rotate(45deg);
@@ -127,6 +132,7 @@
     position:absolute;
     top:20px;
     right:15px;
+    z-index:1002;
 }
 .document * {
     max-width:100%;

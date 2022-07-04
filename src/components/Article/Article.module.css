@@ -7,7 +7,7 @@
     min-height:45vh;
     box-shadow: -7px 0px 5px -5px blueviolet;
     position:absolute;
-    bottom:10vh;
+    top:45vh;
 }
 .article h1 {
     color: blueviolet;

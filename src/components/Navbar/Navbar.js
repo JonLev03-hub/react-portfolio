@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { a } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Styles from "./Navbar.module.css";
 import icon from "./Hamberger.png";
 export default function Navbar() {
@@ -24,9 +24,9 @@ export default function Navbar() {
 
   return (
     <nav className={Styles.nav}>
-      <a href="/">
+      <Link to="/">
         <h1 className={Styles.title}>Jonathan Leverenz</h1>
-      </a>
+      </Link>
       {(toggleMenu || screenWidth > 700) && (
         <>
           <div onClick={toggleNav} className={Styles.backdrop}>
@@ -34,25 +34,22 @@ export default function Navbar() {
           </div>
           <ul className={Styles.list}>
             <li className={Styles.items}>
-              <a href="/about" className={Styles.items}>
+              <Link to="/about" className={Styles.items}>
                 this.About
-              </a>
+              </Link>
             </li>
             <li className={Styles.items}>
-              <a href="/skills" className={Styles.items}>
+              <Link to="/skills" className={Styles.items}>
                 this.Skills
-              </a>
+              </Link>
             </li>
             <li className={Styles.items}>
-              <a href="/work" className={Styles.items}>
+              <Link to="/work" className={Styles.items}>
                 this.Work
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className={Styles.contact}
-                href="mailto:JonathanMLeverenz@hotmail.com"
-              >
+              <a className={Styles.contact} href="mailto:JonLev03@gmail.com">
                 Contact
               </a>
             </li>

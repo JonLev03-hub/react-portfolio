@@ -22,12 +22,18 @@ export default function Card(props) {
   return (
     <>
       {popupText && (
-        <div className={Styles.container}>
+        <div className={Styles.container} onClick={() => setPopupText("")}>
           <div className={Styles.document}>
-            <button className={Styles.close} onClick={() => setPopupText("")}>
-              +
-            </button>
+            <button className={Styles.close}>+</button>
             <ReactMarkdown className={Styles.md}>{popupText}</ReactMarkdown>
+            <div className={Styles.links}>
+              <a href={props.link} target="_blank" rel="noopener noreferrer">
+                Visit Site
+              </a>
+              <a href={props.github} target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+            </div>
           </div>
         </div>
       )}

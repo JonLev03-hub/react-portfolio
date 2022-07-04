@@ -10,11 +10,12 @@ export default function About() {
       <p>
         console.log(" <br />
         <white>
-          My name is Jonathan Leverenz. I specialize in building unique websites
-          for businesses! I started in data analytics but soon realized I had a
-          passion for building applications and websites. I am currently a data
-          analytics instructor at the University of Central Florida, but would
-          love to do web development Full Time.
+          Hey! My name is Jonathan Leverenz. I specialize in building unique
+          websites for businesses! I started in data analytics but soon realized
+          I had a passion for building applications and websites. I am currently
+          a data analytics instructor at the University of Central Florida, but
+          would love to do web development Full Time.If your interested in
+          having a conversation shoot me an email at JonLev03@gmail.com.
         </white>
         <br />
         ");
