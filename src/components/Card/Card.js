@@ -1,22 +1,7 @@
 import Styles from "./Card.module.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-
-function MarkdownPopup(popupText, setPopupText) {
-  var text = popupText.popupText;
-  const clearPopup = () => {
-    setPopupText("");
-  };
-  if (text) {
-    return (
-      <div className={Styles.container} onClick={clearPopup}>
-        <div className={Styles.document}>{text}</div>
-      </div>
-    );
-  } else {
-    return;
-  }
-}
+import ReactMarkdown from "marked-react";
 
 export default function Card(props) {
   const [popupText, setPopupText] = useState("");
@@ -34,7 +19,6 @@ export default function Card(props) {
       );
     }
   };
-
   return (
     <>
       {popupText && (
@@ -43,7 +27,7 @@ export default function Card(props) {
             <button className={Styles.close} onClick={() => setPopupText("")}>
               +
             </button>
-            {popupText}
+            <ReactMarkdown className={Styles.md}>{popupText}</ReactMarkdown>
           </div>
         </div>
       )}
