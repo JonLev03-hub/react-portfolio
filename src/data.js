@@ -21,7 +21,7 @@ const cards = [
     ],
   },
   {
-    img: "./images/media-pilot.png",
+    img: "./images/outdoorMarket.png",
     title: "Outdoor Market",
     link: "",
     github: "https://github.com/jonlev03-hub/ecommerse-store",
