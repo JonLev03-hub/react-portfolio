@@ -98,13 +98,12 @@
     width: 90vw;
     height: 70vh;
     padding: 15vh 5vw;
-    position: fixed;
     z-index: 1000;
     overflow:scroll;
     display:flex;
     justify-content: center;
     background:rgba(0,0,0,.3);
-    position:absolute;
+    position:fixed;
     top:0;
     left:0;
 }

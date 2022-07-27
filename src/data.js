@@ -22,6 +22,13 @@ const cards = [
   },
   {
     img: "./images/media-pilot.png",
+    title: "Outdoor Market",
+    link: "",
+    github: "https://github.com/jonlev03-hub/ecommerse-store",
+    tech: ["React","Redux", "Javascript", "HTML", "CSS"],
+  },
+  {
+    img: "./images/media-pilot.png",
     title: "Media Pilot",
     description:
       "Media Pilot is a tool designed for business owners and influencers that helps improve interactivity by allowing you to make scheduled posts, view analytics about your account, and get suggestions based on other users.",
