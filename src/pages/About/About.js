@@ -26,7 +26,7 @@ export default function About() {
           {" "}
           To get a better idea of what I do checkout my general resume{" "}
         </white>
-        <a href="./assets/JonathanLeverenz.pdf" target="_blank">
+        <a href="https://github.com/JonLev03-hub/react-portfolio/blob/master/public/assets/Resume%20Web%20Dev%206_30%20(2).pdf" target="_blank">
           this.Resume()
         </a>{" "}
         ")
