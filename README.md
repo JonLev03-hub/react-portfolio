@@ -32,4 +32,7 @@ I will be integrating a space shooting game into the home page that can be playe
 ### Mini Sites subdomain
 I want to add new mini-feature sites that can be used for small quality of life changes. 
 
+### Better Animations
+I will add better animations to the popup model for nav bar.
+
 
